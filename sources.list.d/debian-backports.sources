@@ -1,0 +1,6 @@
+Types: deb deb-src
+URIs: http://mirror.yandex.ru/debian
+Suites: trixie-backports
+Components: main
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg

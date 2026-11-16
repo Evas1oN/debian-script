@@ -2,8 +2,8 @@ codium
 dconf-cli
 dnsmasq
 file-roller
-firefox-esr
-firefox-esr-l10n-ru
+firefox
+firefox-l10n-ru
 flatpak
 gdm3
 gnome-console
@@ -20,6 +20,7 @@ gnome-software-plugin-flatpak
 hunspell
 hunspell-en-us
 hunspell-ru
+keepassxc-full
 libc6:amd64
 libc6:i386
 libegl1:amd64
@@ -31,6 +32,11 @@ libgl1-mesa-dri:i386
 libgl1:amd64
 libgl1:i386
 libpam-gnome-keyring
+libreoffice-calc
+libreoffice-gnome
+libreoffice-gtk3
+libreoffice-l10n-ru
+libreoffice-writer
 mesa-vulkan-drivers
 network-manager-gnome
 network-manager-l10n
@@ -44,10 +50,12 @@ qbittorrent
 remmina
 remmina-plugin-rdp
 remmina-plugin-vnc
+spotify-client
 steam-launcher
 steam-libs-i386:i386
 thunderbird
 thunderbird-l10n-ru
 unzip
 vlc
+webext-keepassxc-browser
 xdg-user-dirs

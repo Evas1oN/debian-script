@@ -25,13 +25,11 @@ Pin: origin packages.mozilla.org
 Pin-Priority: 1000
 EOL
 
-sudo apt update -y
-
-sudo apt install -y -t trixie-backports linux-image-amd64 linux-headers-amd64
-
-sudo apt upgrade -y -t trixie-backports
-
-sudo apt install -y -t trixie-backports --no-install-recommends $(paste -sd' ' packages)
+sudo apt update -y && \
+sudo apt install -y -t trixie-backports \
+  linux-image-amd64 \
+  linux-headers-amd64 \
+  $(paste -sd' ' packages)
 
 dconf load / <<'EOL'
 [org/gnome/desktop/input-sources]

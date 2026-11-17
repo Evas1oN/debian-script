@@ -48,6 +48,14 @@ enabled-extensions=['blur-my-shell@aunetx', 'drive-menu@gnome-shell-extensions.g
 [org/gnome/nautilus/preferences]
 always-use-location-entry=true
 
+[org/gnome/desktop/app-folders/folders/System]
+apps=['nm-connection-editor.desktop', 'debian-xterm.desktop', 'debian-uxterm.desktop']
+name='X-GNOME-Shell-System.directory'
+translate=true
+
+[org/gnome/shell]
+app-picker-layout=[{'firefox.desktop': <{'position': <0>}>, 'thunderbird.desktop': <{'position': <1>}>, 'com.visualstudio.CodeOSS.desktop': <{'position': <2>}>, 'libreoffice-writer.desktop': <{'position': <3>}>, 'libreoffice-calc.desktop': <{'position': <4>}>, 'org.gnome.Console.desktop': <{'position': <5>}>, 'spotify.desktop': <{'position': <6>}>, 'org.keepassxc.KeePassXC.desktop': <{'position': <7>}>, 'com.obsproject.Studio.desktop': <{'position': <8>}>, 'steam.desktop': <{'position': <9>}>, 'org.gnome.FileRoller.desktop': <{'position': <10>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <11>}>, 'org.remmina.Remmina.desktop': <{'position': <12>}>, 'vlc.desktop': <{'position': <13>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <14>}>, 'org.gnome.Settings.desktop': <{'position': <15>}>}, {'System': <{'position': <0>}>, 'libreoffice-startcenter.desktop': <{'position': <1>}>}]
+
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Shift><Control>s'
 command='flatpak run be.alexandervanhee.gradia --screenshot=INTERACTIVE'

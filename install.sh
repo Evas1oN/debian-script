@@ -47,6 +47,11 @@ enabled-extensions=['blur-my-shell@aunetx', 'drive-menu@gnome-shell-extensions.g
 
 [org/gnome/nautilus/preferences]
 always-use-location-entry=true
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Shift><Control>s'
+command='flatpak run be.alexandervanhee.gradia --screenshot=INTERACTIVE'
+name='Gradia Screenshot'
 EOL
 
 sudo tee /etc/NetworkManager/conf.d/dns.conf > /dev/null <<'EOL'

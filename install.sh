@@ -48,8 +48,11 @@ enabled-extensions=['blur-my-shell@aunetx', 'drive-menu@gnome-shell-extensions.g
 [org/gnome/nautilus/preferences]
 always-use-location-entry=true
 
+[org/gnome/desktop/app-folders]
+folder-children=['System', 'Utilities', 'YaST', 'Pardus']
+
 [org/gnome/desktop/app-folders/folders/System]
-apps=['nm-connection-editor.desktop', 'debian-xterm.desktop', 'debian-uxterm.desktop']
+apps=['nm-connection-editor.desktop','debian-xterm.desktop', 'debian-uxterm.desktop']
 name='X-GNOME-Shell-System.directory'
 translate=true
 
@@ -60,6 +63,10 @@ app-picker-layout=[{'firefox.desktop': <{'position': <0>}>, 'thunderbird.desktop
 binding='<Shift><Control>s'
 command='flatpak run be.alexandervanhee.gradia --screenshot=INTERACTIVE'
 name='Gradia Screenshot'
+
+[org/gnome/Console]
+audible-bell=false
+font-scale=1.2
 EOL
 
 sudo tee /etc/NetworkManager/conf.d/dns.conf > /dev/null <<'EOL'

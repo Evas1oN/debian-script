@@ -31,6 +31,8 @@ sudo apt install -y -t trixie-backports \
   linux-headers-amd64 \
   $(paste -sd' ' packages)
 
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo || true
+
 dconf load / <<'EOL'
 [org/gnome/desktop/input-sources]
 sources=[('xkb', 'us'), ('xkb', 'ru')]

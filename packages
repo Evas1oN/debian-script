@@ -38,13 +38,14 @@ libreoffice-gnome
 libreoffice-gtk3
 libreoffice-l10n-ru
 libreoffice-writer
+loupe
 mesa-vulkan-drivers
 network-manager-gnome
 network-manager-l10n
 network-manager-openvpn-gnome
 ntfs-3g
-obs-studio
 obs-plugins
+obs-studio
 pipewire-pulse
 power-profiles-daemon
 python3-venv
@@ -55,6 +56,7 @@ remmina-plugin-vnc
 spotify-client
 steam-launcher
 steam-libs-i386:i386
+systray-x-gnome
 thunderbird
 thunderbird-l10n-ru
 ttf-mscorefonts-installer

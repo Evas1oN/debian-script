@@ -3,6 +3,7 @@ build-essential
 codium
 dconf-cli
 dnsmasq
+ffmpeg
 file-roller
 firefox
 firefox-l10n-ru

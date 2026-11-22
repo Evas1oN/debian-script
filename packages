@@ -32,6 +32,7 @@ libegl1:amd64
 libegl1:i386
 libgbm1:amd64
 libgbm1:i386
+libgdk-pixbuf2.0-bin
 libgl1:amd64
 libgl1:i386
 libgl1-mesa-dri:amd64
@@ -53,6 +54,7 @@ network-manager-openvpn-gnome
 ntfs-3g
 obs-plugins
 obs-studio
+papers
 pipewire-pulse
 power-profiles-daemon
 python3-venv
